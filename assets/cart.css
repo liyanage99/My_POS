@@ -104,15 +104,18 @@
 .food-detail p{
     font-size: 20px;
 }
-.btn-aadd{
+.btn-add{
     margin-top: -10px;
     height: 40px;
     width: 70px;
     border-radius: 100px;
     cursor: pointer;
+    font-size: 17px;
+    background-color: #ffb428;
+    border: none;
 }
 .checkout{
-    background: #b4e2bc;
+    background: #e8f0e9;
     width: 50%;
     height: 500px;
     border-radius: 20px;
@@ -124,15 +127,26 @@
     font-size: 30px;
     padding-top: 20px;
 }
-.bill{
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 750px;
-    border-style: dotted;
-}
 .total{
     padding-top: 20px;
     margin-left: 30px;
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom: 20px;
+}
+/* checkout */
+.input-box{
+    padding-top: 40px;
+    margin-left: 20px;
+}
+.input-text{
+    font-size: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: rgb(11, 141, 11);
+}
+.input-box-state{
+    display: flex;
+    gap: 2rem;
+    padding-left: 20px;
+    padding-top: 30px;
 }
