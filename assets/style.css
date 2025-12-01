@@ -32,6 +32,10 @@
     justify-content: space-between;
     
 }
+.items li a{
+    text-decoration: none;
+    color: white;
+}
 .items{
     list-style: none;
     gap: 50px;
@@ -43,6 +47,7 @@
 .items a:hover{
     color: rgb(243, 228, 23);
 }
+
 .header-btn{
     padding: 20px 40px 20px 40px;
     border-radius: 30px;
@@ -50,8 +55,14 @@
     margin-right: 60px;
     cursor: pointer;
     font-size: 15px;
+    background: #f1c70e;
+    color: white;
+    font-weight: 500;
 }
-
+.header-btn:hover{
+    background: #ffb428;
+    color: #eeeeee;
+}
 /* hero-section */
 .hero{
     /* background: #eaff28; */
@@ -96,6 +107,31 @@
     gap: 30px; /* space between cards */
     padding-left: 25px;
     
+}
+.cart-btn button{
+    position: fixed;
+    top: 32%;  
+    right: -30px; 
+    /* height: 0px; */
+    /* width: 60px; */
+    z-index: 999;
+    cursor: pointer;
+    padding: 15px 30px 15px 30px;
+    border-radius: 80px 0px 80px 0px;
+    font-size: 15px;
+    /* opacity: 50%; */
+    border: none;
+    background: #ff4727;
+}
+.cart-btn button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.cart-btn button:hover{
+    background: #2cce16;
+    color: white;
 }
 .food-card{
     height: 90%;
@@ -191,3 +227,4 @@
     height: 200px;
     
 }
+/* cart-page */

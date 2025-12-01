@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.body{
+    background: white;
+}
+/* header-section */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    background: #1D8348;
+    padding-bottom: 50px;
+    position: static;
+    
+    
+}
+.header-logo{
+    margin-left: 40px;
+}
+.header-logo img{
+    width: 200px;
+}
+.header-logo h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(247, 215, 34);
+}
+.nav-items ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.items li a{
+    text-decoration: none;
+    color: white;
+}
+.items{
+    list-style: none;
+    gap: 50px;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.items a:hover{
+    color: rgb(243, 228, 23);
+}
+
+.header-btn{
+    padding: 20px 40px 20px 40px;
+    border-radius: 30px;
+    border: none;
+    margin-right: 60px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #f1c70e;
+    color: white;
+    font-weight: 500;
+}
+.header-btn:hover{
+    background: #ffb428;
+    color: #eeeeee;
+}
+/* order-setup */
+.cart-section{
+    background: white;   
+}
+.cart-section h1{
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.set-order-section{
+    display: flex;
+    justify-content: space-between;
+}
+.set-order{
+    background: #eeede9;
+    width: 50%;
+    height: fit-content;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.set-order h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.food-detail{
+    display: flex;
+    gap: 6rem;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.food-detail img{
+    margin-top: -20px;
+    height: 60px;
+    width: 60px;
+}
+.food-detail p{
+    font-size: 20px;
+}
+.btn-aadd{
+    margin-top: -10px;
+    height: 40px;
+    width: 70px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.checkout{
+    background: #b4e2bc;
+    width: 50%;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.checkout h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.bill{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 750px;
+    border-style: dotted;
+}
+.total{
+    padding-top: 20px;
+    margin-left: 30px;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
